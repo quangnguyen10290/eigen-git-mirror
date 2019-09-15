@@ -1,0 +1,396 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1005B5CE-39BA-4E05-812C-50A1BCA1F1A5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="adjoint_1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="adjoint_2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="adjoint_3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="alignedvector3.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="array_cwise_1.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="array_for_matrix.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="array_of_string.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="array_replicate.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="basicstuff.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="bdcsvd.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="block.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="cholesky.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="diagonalmatrices.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="eigensolver_complex.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="geo_alignedbox.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="hessenberg.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="inplace_decomposition.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="jacobisvd.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="lu.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="map_nonconst_ctor_on_const_ptr_0.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mapped_matrix.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="matrix_function.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="matrix_power.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="qr.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="redux.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="schur_complex.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sparse_basic.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="stable_norm.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="triangular.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="umeyama.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="vector_wiseop.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="adjoint_1">
+        <MSBuild Projects="adjoint_1.cbproj"/>
+    </Target>
+    <Target Name="adjoint_1:Clean">
+        <MSBuild Projects="adjoint_1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="adjoint_1:Make">
+        <MSBuild Projects="adjoint_1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="adjoint_2">
+        <MSBuild Projects="adjoint_2.cbproj"/>
+    </Target>
+    <Target Name="adjoint_2:Clean">
+        <MSBuild Projects="adjoint_2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="adjoint_2:Make">
+        <MSBuild Projects="adjoint_2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="adjoint_3">
+        <MSBuild Projects="adjoint_3.cbproj"/>
+    </Target>
+    <Target Name="adjoint_3:Clean">
+        <MSBuild Projects="adjoint_3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="adjoint_3:Make">
+        <MSBuild Projects="adjoint_3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="alignedvector3">
+        <MSBuild Projects="alignedvector3.cbproj"/>
+    </Target>
+    <Target Name="alignedvector3:Clean">
+        <MSBuild Projects="alignedvector3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="alignedvector3:Make">
+        <MSBuild Projects="alignedvector3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="array_cwise_1">
+        <MSBuild Projects="array_cwise_1.cbproj"/>
+    </Target>
+    <Target Name="array_cwise_1:Clean">
+        <MSBuild Projects="array_cwise_1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="array_cwise_1:Make">
+        <MSBuild Projects="array_cwise_1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="array_for_matrix">
+        <MSBuild Projects="array_for_matrix.cbproj"/>
+    </Target>
+    <Target Name="array_for_matrix:Clean">
+        <MSBuild Projects="array_for_matrix.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="array_for_matrix:Make">
+        <MSBuild Projects="array_for_matrix.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="array_of_string">
+        <MSBuild Projects="array_of_string.cbproj"/>
+    </Target>
+    <Target Name="array_of_string:Clean">
+        <MSBuild Projects="array_of_string.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="array_of_string:Make">
+        <MSBuild Projects="array_of_string.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="array_replicate">
+        <MSBuild Projects="array_replicate.cbproj"/>
+    </Target>
+    <Target Name="array_replicate:Clean">
+        <MSBuild Projects="array_replicate.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="array_replicate:Make">
+        <MSBuild Projects="array_replicate.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="basicstuff">
+        <MSBuild Projects="basicstuff.cbproj"/>
+    </Target>
+    <Target Name="basicstuff:Clean">
+        <MSBuild Projects="basicstuff.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="basicstuff:Make">
+        <MSBuild Projects="basicstuff.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="bdcsvd">
+        <MSBuild Projects="bdcsvd.cbproj"/>
+    </Target>
+    <Target Name="bdcsvd:Clean">
+        <MSBuild Projects="bdcsvd.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bdcsvd:Make">
+        <MSBuild Projects="bdcsvd.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="block">
+        <MSBuild Projects="block.cbproj"/>
+    </Target>
+    <Target Name="block:Clean">
+        <MSBuild Projects="block.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="block:Make">
+        <MSBuild Projects="block.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="cholesky">
+        <MSBuild Projects="cholesky.cbproj"/>
+    </Target>
+    <Target Name="cholesky:Clean">
+        <MSBuild Projects="cholesky.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="cholesky:Make">
+        <MSBuild Projects="cholesky.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="diagonalmatrices">
+        <MSBuild Projects="diagonalmatrices.cbproj"/>
+    </Target>
+    <Target Name="diagonalmatrices:Clean">
+        <MSBuild Projects="diagonalmatrices.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="diagonalmatrices:Make">
+        <MSBuild Projects="diagonalmatrices.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="eigensolver_complex">
+        <MSBuild Projects="eigensolver_complex.cbproj"/>
+    </Target>
+    <Target Name="eigensolver_complex:Clean">
+        <MSBuild Projects="eigensolver_complex.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="eigensolver_complex:Make">
+        <MSBuild Projects="eigensolver_complex.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="geo_alignedbox">
+        <MSBuild Projects="geo_alignedbox.cbproj"/>
+    </Target>
+    <Target Name="geo_alignedbox:Clean">
+        <MSBuild Projects="geo_alignedbox.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="geo_alignedbox:Make">
+        <MSBuild Projects="geo_alignedbox.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="hessenberg">
+        <MSBuild Projects="hessenberg.cbproj"/>
+    </Target>
+    <Target Name="hessenberg:Clean">
+        <MSBuild Projects="hessenberg.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="hessenberg:Make">
+        <MSBuild Projects="hessenberg.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="inplace_decomposition">
+        <MSBuild Projects="inplace_decomposition.cbproj"/>
+    </Target>
+    <Target Name="inplace_decomposition:Clean">
+        <MSBuild Projects="inplace_decomposition.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="inplace_decomposition:Make">
+        <MSBuild Projects="inplace_decomposition.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="jacobisvd">
+        <MSBuild Projects="jacobisvd.cbproj"/>
+    </Target>
+    <Target Name="jacobisvd:Clean">
+        <MSBuild Projects="jacobisvd.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="jacobisvd:Make">
+        <MSBuild Projects="jacobisvd.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="lu">
+        <MSBuild Projects="lu.cbproj"/>
+    </Target>
+    <Target Name="lu:Clean">
+        <MSBuild Projects="lu.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="lu:Make">
+        <MSBuild Projects="lu.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="map_nonconst_ctor_on_const_ptr_0">
+        <MSBuild Projects="map_nonconst_ctor_on_const_ptr_0.cbproj"/>
+    </Target>
+    <Target Name="map_nonconst_ctor_on_const_ptr_0:Clean">
+        <MSBuild Projects="map_nonconst_ctor_on_const_ptr_0.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="map_nonconst_ctor_on_const_ptr_0:Make">
+        <MSBuild Projects="map_nonconst_ctor_on_const_ptr_0.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="mapped_matrix">
+        <MSBuild Projects="mapped_matrix.cbproj"/>
+    </Target>
+    <Target Name="mapped_matrix:Clean">
+        <MSBuild Projects="mapped_matrix.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="mapped_matrix:Make">
+        <MSBuild Projects="mapped_matrix.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="matrix_function">
+        <MSBuild Projects="matrix_function.cbproj"/>
+    </Target>
+    <Target Name="matrix_function:Clean">
+        <MSBuild Projects="matrix_function.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="matrix_function:Make">
+        <MSBuild Projects="matrix_function.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="matrix_power">
+        <MSBuild Projects="matrix_power.cbproj"/>
+    </Target>
+    <Target Name="matrix_power:Clean">
+        <MSBuild Projects="matrix_power.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="matrix_power:Make">
+        <MSBuild Projects="matrix_power.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="qr">
+        <MSBuild Projects="qr.cbproj"/>
+    </Target>
+    <Target Name="qr:Clean">
+        <MSBuild Projects="qr.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="qr:Make">
+        <MSBuild Projects="qr.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="redux">
+        <MSBuild Projects="redux.cbproj"/>
+    </Target>
+    <Target Name="redux:Clean">
+        <MSBuild Projects="redux.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="redux:Make">
+        <MSBuild Projects="redux.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="schur_complex">
+        <MSBuild Projects="schur_complex.cbproj"/>
+    </Target>
+    <Target Name="schur_complex:Clean">
+        <MSBuild Projects="schur_complex.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="schur_complex:Make">
+        <MSBuild Projects="schur_complex.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="sparse_basic">
+        <MSBuild Projects="sparse_basic.cbproj"/>
+    </Target>
+    <Target Name="sparse_basic:Clean">
+        <MSBuild Projects="sparse_basic.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sparse_basic:Make">
+        <MSBuild Projects="sparse_basic.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="stable_norm">
+        <MSBuild Projects="stable_norm.cbproj"/>
+    </Target>
+    <Target Name="stable_norm:Clean">
+        <MSBuild Projects="stable_norm.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="stable_norm:Make">
+        <MSBuild Projects="stable_norm.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="triangular">
+        <MSBuild Projects="triangular.cbproj"/>
+    </Target>
+    <Target Name="triangular:Clean">
+        <MSBuild Projects="triangular.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="triangular:Make">
+        <MSBuild Projects="triangular.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="umeyama">
+        <MSBuild Projects="umeyama.cbproj"/>
+    </Target>
+    <Target Name="umeyama:Clean">
+        <MSBuild Projects="umeyama.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="umeyama:Make">
+        <MSBuild Projects="umeyama.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="vector_wiseop">
+        <MSBuild Projects="vector_wiseop.cbproj"/>
+    </Target>
+    <Target Name="vector_wiseop:Clean">
+        <MSBuild Projects="vector_wiseop.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="vector_wiseop:Make">
+        <MSBuild Projects="vector_wiseop.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="adjoint_1;adjoint_2;adjoint_3;alignedvector3;array_cwise_1;array_for_matrix;array_of_string;array_replicate;basicstuff;bdcsvd;block;cholesky;diagonalmatrices;eigensolver_complex;geo_alignedbox;hessenberg;inplace_decomposition;jacobisvd;lu;map_nonconst_ctor_on_const_ptr_0;mapped_matrix;matrix_function;matrix_power;qr;redux;schur_complex;sparse_basic;stable_norm;triangular;umeyama;vector_wiseop"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="adjoint_1:Clean;adjoint_2:Clean;adjoint_3:Clean;alignedvector3:Clean;array_cwise_1:Clean;array_for_matrix:Clean;array_of_string:Clean;array_replicate:Clean;basicstuff:Clean;bdcsvd:Clean;block:Clean;cholesky:Clean;diagonalmatrices:Clean;eigensolver_complex:Clean;geo_alignedbox:Clean;hessenberg:Clean;inplace_decomposition:Clean;jacobisvd:Clean;lu:Clean;map_nonconst_ctor_on_const_ptr_0:Clean;mapped_matrix:Clean;matrix_function:Clean;matrix_power:Clean;qr:Clean;redux:Clean;schur_complex:Clean;sparse_basic:Clean;stable_norm:Clean;triangular:Clean;umeyama:Clean;vector_wiseop:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="adjoint_1:Make;adjoint_2:Make;adjoint_3:Make;alignedvector3:Make;array_cwise_1:Make;array_for_matrix:Make;array_of_string:Make;array_replicate:Make;basicstuff:Make;bdcsvd:Make;block:Make;cholesky:Make;diagonalmatrices:Make;eigensolver_complex:Make;geo_alignedbox:Make;hessenberg:Make;inplace_decomposition:Make;jacobisvd:Make;lu:Make;map_nonconst_ctor_on_const_ptr_0:Make;mapped_matrix:Make;matrix_function:Make;matrix_power:Make;qr:Make;redux:Make;schur_complex:Make;sparse_basic:Make;stable_norm:Make;triangular:Make;umeyama:Make;vector_wiseop:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
