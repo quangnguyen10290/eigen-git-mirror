@@ -67,8 +67,8 @@
         <SanitizedProjectName>adjoint_1</SanitizedProjectName>
         <Multithreaded>true</Multithreaded>
         <_TCHARMapping>char</_TCHARMapping>
-        <IncludePath>..\test\;G:\_work\IDERA\github\Eigen\rad\;$(IncludePath)</IncludePath>
-        <ILINK_LibraryPath>..\test\;G:\_work\IDERA\github\Eigen\rad\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IncludePath>..\test\;..;$(IncludePath)</IncludePath>
+        <ILINK_LibraryPath>..\test\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_iOSDevice32)'!=''">
         <PackageImports>bindcomp;bindcompdbx;bindcompfmx;bindengine;CloudService;CustomIPTransport;DataSnapClient;DataSnapCommon;DataSnapFireDAC;DataSnapNativeClient;DataSnapProviderClient;dbexpress;dbrtl;dbxcds;DbxClientDriver;DbxCommonDriver;DBXInterBaseDriver;DBXSqliteDriver;dsnap;dsnapxml;emsclient;emsclientfiredac;FireDAC;FireDACCommon;FireDACCommonDriver;FireDACDBXDriver;FireDACDSDriver;FireDACIBDriver;FireDACSqliteDriver;fmx;fmxase;fmxFireDAC;IndyCore;IndyIPClient;IndyIPCommon;IndyIPServer;IndyProtocols;IndySystem;inet;RESTBackendComponents;RESTComponents;rtl;soapmidas;soaprtl;soapserver;tethering;xmlrtl;$(PackageImports)</PackageImports>
@@ -115,7 +115,6 @@
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <BCC_UseClassicCompiler>false</BCC_UseClassicCompiler>
         <Defines>_Windows;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;EIGEN_TEST_MAX_SIZE=320;EIGEN_TEST_PART_1=1;CMAKE_INTDIR=&quot;Debug&quot;;$(Defines)</Defines>
-        <IncludePath>..</IncludePath>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>C:\Users\thiet\Documents\Embarcadero\Studio\Projects\(None)</Manifest_File>
     </PropertyGroup>
@@ -125,6 +124,8 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <BCC_UseClassicCompiler>false</BCC_UseClassicCompiler>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>(None)</Manifest_File>
     </PropertyGroup>
     <ItemGroup>
         <CppCompile Include="..\test\adjoint.cpp">
